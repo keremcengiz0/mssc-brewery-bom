@@ -8,34 +8,33 @@
         <version>2.7.9</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>com.keremcengiz0</groupId>
     <artifactId>mssc-brewery-bom</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>mssc-brewery-bom</name>
-    <description>mssc-brewery-bom</description>
+
+    <packaging>pom</packaging>
+
+    <licenses>
+        <license>
+            <name>GNU General Public License, Version 3.0</name>
+            <url>https://www.gnu.org/licenses/gpl.txt</url>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>Spring Framework Guru</name>
+    </organization>
+
+    <developers>
+        <developer>
+            <name>Kerem Cengiz</name>
+            <organization>Spring Framework Guru</organization>
+        </developer>
+    </developers>
+
     <properties>
         <java.version>11</java.version>
     </properties>
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
